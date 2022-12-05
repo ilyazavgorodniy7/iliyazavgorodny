@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .carousel div img {
+    width: 200px;
+  }
+  .name{
+    text-align:  center;
+  }
+  .carousel {
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 65px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+  }
+  .slick-next {
+    right: 15px !important;
+  }
+  .slick-prev {
+    left: 20px !important;
+  }
+  .slick-dots {
+    position: relative !important;
+  }
+  @media (min-width: 800px) {
+    .carousel div img {
+      width: 200px;
+      height: 150px;
+    }
+    .slick-prev {
+      left: -25px !important;
+    }
+  }

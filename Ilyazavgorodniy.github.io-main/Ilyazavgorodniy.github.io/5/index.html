@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ЗАДАНИЕ 5</title>
+    <style>
+        body {
+            background: url(kosmos.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <form>
+        <h2><a style="color:rgb(223, 122, 248);">Рассчет стоимости товаров :</a></h2>
+        <input type="text" id="count" placeholder="Кол-во фруктов" /> <br/>
+        <h2><a style="color:rgb(122, 223, 248);">Введите стоимость за один фрукт :</a></h2>
+        <input type="text" id="price" placeholder="Цена за фрукт" /><br/>
+        <br/>
+        <h2><button id="btn-count">Рассчитать стоимость :</button></h2>
+      </form>
+      <h2><a style="color:rgb(122, 248, 179);">Итоговая стоимость :</a></h2>
+      <input type="text" id="total" disabled/>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
